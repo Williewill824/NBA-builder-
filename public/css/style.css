@@ -1,0 +1,183 @@
+/* *html{
+ height: 100%;
+
+} */
+
+body {
+background-color: #f5f5f5;
+margin: 0;
+ 
+}
+
+nav{
+background: rgb(182,181,204);
+background: linear-gradient(180deg, rgba(182,181,204,0.4967121595747015) 0%, rgba(213,213,226,0.6821054180016679) 43%, rgba(65,209,240,0.7382851932825667) 100%);
+
+}
+
+.nba1{
+  margin-top: 20px;
+  
+}
+
+.nba2{
+  border: 25px solid chartreuse ;
+
+}
+
+h5 {
+font-family: 'Norican', cursive;
+font-size: 35px;
+margin-left: 2px;
+color: #17408b;
+margin-top: 15px;
+}
+
+.modal-content{
+ background-color: #fefbd8;
+}
+
+.modal-body {
+  top: 10px;
+  bottom: 0;
+  left: 0;
+  font-family: 'Orbitron', sans-serif;;
+  color: #034f84;
+  font-size: 16px;
+  font-weight: 900px;
+}
+
+th {
+  font-family: 'Orbitron', sans-serif;;
+  color: #034f84;
+  font-size: 16px;
+
+}
+
+.btn:hover {
+  background-color: #3e8e41;
+}
+
+.btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#logoNba{
+   padding: 0;
+   margin: 0px 10px 0px 40px;
+   position: relative;
+   width:40px;
+   height:55px;
+
+ }
+
+ #logoNba3{
+  margin: 0px 0px 0px 15px;
+  padding: 2px;
+  position: relative;
+  width:80px;
+  height:80px;
+
+ }
+
+
+ #logoNba2{
+  margin: 0px 35px 0px 5px;
+  position: relative;
+  width:40px;
+  height:55px;
+
+}
+
+h1{
+  font-family: 'Norican', cursive;
+  color:black;
+  padding-left: 5px;
+  padding-right: 20px;
+  font-size: 40px;
+}
+
+.card{
+  margin: 15px 0px 25px 0px;
+  
+}
+
+.topnav {
+  overflow: hidden;
+  padding-left: 400px;
+  padding-right: 70px;
+  }
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  /* padding: 14px 16px; */
+  text-decoration: none;
+  font-size: 20px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid red;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid red;
+}
+
+
+#userName{
+  margin-left: 40px;
+  margin-top: 45px;
+   
+}
+
+h2{
+  font-family: 'Norican', cursive;
+  font-size:25px;
+  border-color: black 5px solid;
+  font-weight: 400;
+
+}
+
+
+/* Start media queries */
+/* A Media Query max-width: 786px */
+@media screen and (max-width: 786px) {
+  /* Resized content to fit 786px  */
+  body {
+      max-width: 786px;
+  }
+  /* Resized main-content to fit 786px  */
+  div{
+  position: absolute;
+  left: 20%;
+  }
+
+  #card {
+    position: absolute;
+    left: 20%;
+  }
+}
+  
+  
+  /* A Media Query max-width: 640px */
+  @media screen and (max-width: 640px) {
+  /* Resized content to fit 640px  */
+  body {
+      min-width: 640px;
+  }
+  /* Resized main-content to fit 640px  */
+  div {
+  position: absolute;
+  left: 10%;
+  }
+  #card {
+    position: absolute;
+    left: 20%;
+    }
+  };
