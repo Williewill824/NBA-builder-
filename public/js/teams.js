@@ -48,8 +48,10 @@ $(document).ready(function () {
               "<p class= text-center>" + "Player is Unavailable" + "</p>"
             );
             $("#exampleModal2").modal("show");
-
+            gsap.to("#exampleModal2", {duration: 1, x: 200, ease: "bounce"});
+            
             return;
+
           }
 
           $(".modal-body").empty();
@@ -90,8 +92,10 @@ $(document).ready(function () {
               "<p>" 
            
           );
-
           $("#exampleModal").modal("show");
+          gsap.to("#exampleModal", {duration: 1, rotation: 360, scale: 0.8,});
+
+          
         });
       });
     });
@@ -138,11 +142,7 @@ $(document).ready(function () {
     newTr.append(
       `<td class="show-stats-modal"> <a href="#">Show Stats</a> </td>`
     );
-    newTr.append(
-      "<td><a href='/teams?player_id=" +
-        playerData.id +
-        "'>Create a team</a></td>"
-    );
+
     newTr.append(
       "<td><a style='cursor:pointer;color:red' class='delete-player'>Delete Player</a></td>"
     );
